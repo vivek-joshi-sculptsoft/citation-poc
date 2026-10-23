@@ -1,0 +1,142 @@
+state: California
+state_code: CA
+
+# URL pattern -> doc_type and control. Regexes are matched against the full URL with re.search.
+url_rules:
+  # Index pages of a law-guide section: never a control.
+  - id: index_page
+    pattern: 'lawguides/.*/\d{3}-0000\.html$'
+    doc_type: OTHER
+    confidence: VERIFIED
+  # A whole section on one page: many authorities, so no single control.
+  - id: compilation_all
+    pattern: '-all\.html$'
+    doc_type: COMPILED          # report the type of what it compiles if the URL makes it clear, else COMPILED
+    compilation: true
+    confidence: VERIFIED
+  # Statute sections, one per page: vol1/sutl/6011.html  (added: missing from the original research table)
+  - id: statute_sutl
+    pattern: 'cdtfa\.ca\.gov/lawguides/vol1/sutl/(\d+(?:\.\d+)?)\.html$'
+    doc_type: STATUTE_REFERENCE
+    control: 'CA-RTC-{1}'
+    confidence: VERIFIED
+  # Statute sections with -sec####-## in the name, e.g. vol1/alt/additional-local-taxes-sec7286-50.html
+  # The program folder decides the code; only folders listed in program_codes get a control.
+  - id: statute_sec
+    pattern: 'cdtfa\.ca\.gov/lawguides/vol1/([a-z]+)/[^/]*-sec(\d+)(?:-(\d+))?\.html$'
+    doc_type: STATUTE_REFERENCE
+    control_from_program: true   # control = program_codes[{1}] + '-' + {2} (+ '.' + {3} if present)
+    confidence: VERIFIED
+  # Sales and Use Tax / Transactions and Use Tax / Uniform Local annotations: vol2/suta/195-0560.html
+  - id: annotation_suta
+    pattern: 'cdtfa\.ca\.gov/lawguides/vol2/suta/(\d{3})-(\d{4})\.html$'
+    doc_type: ANNOTATION
+    control: 'CA-SUTA-{1}.{2}'
+    confidence: VERIFIED
+  - id: annotation_tuta
+    pattern: 'cdtfa\.ca\.gov/lawguides/vol2/tuta/(\d{3})-(\d{4})\.html$'
+    doc_type: ANNOTATION
+    control: 'CA-TUTA-{1}.{2}'
+    confidence: VERIFIED
+  - id: annotation_ulsuta
+    pattern: 'cdtfa\.ca\.gov/lawguides/vol2/ulsuta/(\d{3})-(\d{4})\.html$'
+    doc_type: ANNOTATION
+    control: 'CA-ULSUTA-{1}.{2}'
+    confidence: VERIFIED
+  # Smaller programs' unnumbered annotations: vol4/etusa/etusa-6.html
+  - id: annotation_vol4
+    pattern: 'cdtfa\.ca\.gov/lawguides/vol4/([a-z]+)a/\1a-(\d+)\.html$'
+    doc_type: ANNOTATION
+    control: 'CA-{1}A-{2}'      # upper-case the program, e.g. CA-ETUSA-6
+    confidence: VERIFIED
+  # BOE property tax annotations: ptlg/annt/220-0132.html. Separate prefix: same number format as CDTFA.
+  - id: annotation_boe_property
+    pattern: 'boe\.ca\.gov/lawguides/property/current/ptlg/annt/(\d{3})-(\d{4})\.html$'
+    doc_type: ANNOTATION
+    control: 'CA-PTA-{1}.{2}'
+    confidence: VERIFIED
+  # The letters behind the annotations (folder name is misleading): annotations/320-0240.pdf
+  - id: letter_ruling
+    pattern: 'cdtfa\.ca\.gov/lawguides/annotations/(\d{3})-(\d{4})\.pdf$'
+    doc_type: LETTER_RULING
+    control: 'CA-LTR-{1}.{2}'
+    add_references: ['CA-SUTA-{1}.{2}']   # the annotation that summarizes this letter
+    confidence: VERIFIED
+  # Court decision digests (many cases per page): vol1/sutcd/sales-and-use-tax-court-decisions-c11.html
+  - id: court_decisions
+    pattern: 'cdtfa\.ca\.gov/lawguides/vol1/[a-z]+cd/'
+    doc_type: COURT_DECISION
+    compilation: true
+    confidence: VERIFIED
+  - id: cdtfa_formspubs
+    pattern: 'cdtfa\.ca\.gov/formspubs/'
+    doc_type: PUBLICATION
+    confidence: VERIFIED
+  - id: cdtfa_notices
+    pattern: 'cdtfa\.ca\.gov/.*notices'
+    doc_type: BULLETIN_NOTICE
+    confidence: VERIFIED
+  # FTB (income tax): patterns inferred, not yet checked against a crawl.
+  - id: ftb_legal_ruling
+    pattern: 'ftb\.ca\.gov/tax-pros/law/legal-rulings/(\d{4})-(\d+)\.html$'
+    doc_type: REVENUE_RULING
+    control: 'CA-FTB-LR-{1}-{2}'
+    confidence: INFERRED
+  - id: ftb_notice
+    pattern: 'ftb\.ca\.gov/tax-pros/law/ftb-notices/(\d{4})-(\d+)\.pdf$'
+    doc_type: BULLETIN_NOTICE
+    control: 'CA-FTB-NOTICE-{1}-{2}'
+    confidence: INFERRED
+  - id: ftb_forms
+    pattern: 'ftb\.ca\.gov/forms/'
+    doc_type: PUBLICATION
+    confidence: INFERRED
+
+# Law-guide program folder -> code prefix, for the statute_sec rule. Leave unknown folders out:
+# a statute page in an unlisted folder gets no control (reason: "unknown program folder <x>").
+program_codes:
+  sutl: CA-RTC     # Sales and Use Tax Law (Revenue and Taxation Code)
+  alt: CA-RTC      # Additional Local Taxes (Revenue and Taxation Code)
+
+# How each code is written in text. Used by the rules-based reference parser and given to the LLM.
+reference_names:
+  - key_prefix: CA-RTC
+    names: ["Revenue and Taxation Code", "Rev. & Tax. Code", "Rev. and Tax. Code", "R&TC", "R & TC", "RTC",
+            "Sales and Use Tax Law"]
+    number: '\d{4,5}(?:\.\d+)?'
+  - key_prefix: CA-REG
+    # (added) "Cal. Code Regs., tit. 18, § 1502": Title 18 of the California Code of Regulations.
+    names: ["Sales and Use Tax Regulation", "Regulations", "Regulation", "Regs.", "Reg.",
+            "Cal. Code Regs., tit. 18", "Cal. Code Regs. tit. 18"]
+    number: '\d{4}(?:\.\d+)?'
+  - key_prefix: CA-PTR
+    names: ["Property Tax Rule", "Property Tax Rules"]
+    number: '\d{1,4}(?:\.\d+)?'
+  - key_prefix: ANNOTATION           # resolved per chunk, see annotation_prefix_by_tax_family
+    names: ["Annotations", "Annotation", "Annot."]
+    number: '\d{3}\.\d{4}'
+  - key_prefix: CA-CDTFA-PUB
+    names: ["Publication", "Pub."]
+    number: '\d{1,3}[A-Z]?'
+  - key_prefix: CA-FTB-LR
+    names: ["Legal Ruling", "FTB Legal Ruling"]
+    number: '\d{4}-\d{1,2}'
+  - key_prefix: CA-FTB-NOTICE
+    names: ["FTB Notice"]
+    number: '\d{4}-\d{1,2}'
+
+# "Annotation 220.0132" is ambiguous between CDTFA and BOE. Pick the prefix from the chunk's tax_family.
+annotation_prefix_by_tax_family:
+  property tax: CA-PTA
+  default: CA-SUTA
+
+# A bare "§ 6011" / "§§ 6006(b), 6012" / "Section 6051" with no code name: in a chunk whose tax_family
+# is sales and use tax, assume CA-RTC and mark the method as "bare_section_assumed".
+bare_section_default:
+  sales and use tax: CA-RTC
+
+# (added) Lines containing any of these phrases are dropped before anything is extracted
+# (the CDTFA site-wide disaster-relief banner). Case-insensitive.
+ignore_lines_containing:
+  - "affected by a California disaster"
+  - "State of Emergency Tax Relief"
