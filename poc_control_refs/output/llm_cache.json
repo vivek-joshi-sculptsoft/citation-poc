@@ -1,0 +1,1864 @@
+{
+ "0115080154adbef8#0|f345bcca99fbe2e8a59ab8e356b74d65a6f99cf6d04b2e0f5f151730c357348e": {
+  "references": [
+   {
+    "span": "755.0000 STATE-ASSESSED PROPERTY",
+    "key": "CA-PTA-755.0000"
+   },
+   {
+    "span": "755.0001 Assessment.",
+    "key": "CA-PTA-755.0001"
+   },
+   {
+    "span": "755.0002 Business Inventory Exemption.",
+    "key": "CA-PTA-755.0002"
+   },
+   {
+    "span": "755.0003 Business Inventory Exemption.",
+    "key": "CA-PTA-755.0003"
+   },
+   {
+    "span": "755.0005 Change In Ownership.",
+    "key": "CA-PTA-755.0005"
+   },
+   {
+    "span": "755.0010 Corporate Signatory.",
+    "key": "CA-PTA-755.0010"
+   },
+   {
+    "span": "755.0015 Escape Assessment Under Consideration.",
+    "key": "CA-PTA-755.0015"
+   },
+   {
+    "span": "755.0020 Failure to File.",
+    "key": "CA-PTA-755.0020"
+   },
+   {
+    "span": "755.0023 Foreign Improvements.",
+    "key": "CA-PTA-755.0023"
+   },
+   {
+    "span": "755.0025 Historical Property.",
+    "key": "CA-PTA-755.0025"
+   },
+   {
+    "span": "755.0045 Leased to the State.",
+    "key": "CA-PTA-755.0045"
+   },
+   {
+    "span": "755.0050 Lessor's Exemption Claims.",
+    "key": "CA-PTA-755.0050"
+   },
+   {
+    "span": "755.0060 Mobile Radio Property.",
+    "key": "CA-PTA-755.0060"
+   },
+   {
+    "span": "755.0070 One-Way Paging Companies.",
+    "key": "CA-PTA-755.0070"
+   },
+   {
+    "span": "755.0075 Penalty and Interest Calculations.",
+    "key": "CA-PTA-755.0075"
+   },
+   {
+    "span": "755.0080 Petition for Reassessment.",
+    "key": "CA-PTA-755.0080"
+   },
+   {
+    "span": "755.0081 Pipeline Property.",
+    "key": "CA-PTA-755.0081"
+   }
+  ]
+ },
+ "01988e443746d7c9#0|d427e3eda8b2d01007930402da8a387f505b24e9761c263656b3cb608abc90c5": {
+  "references": [
+   {
+    "span": "435.0000 Producing, Fabricating and Processing Property Furnished by Consumers—General Rules—Regulation 1526 (View entire section)",
+    "key": "CA-SUTA-435.0000"
+   },
+   {
+    "span": "Regulation 1526",
+    "key": "CA-REG-1526"
+   },
+   {
+    "span": "435.0020 Assembling ",
+    "key": "CA-SUTA-435.0020"
+   },
+   {
+    "span": "435.0038 Assembly of Electronic Kits and Repair of Electronic Equipment",
+    "key": "CA-SUTA-435.0038"
+   },
+   {
+    "span": "435.0040 Assembly of Furniture—Fabrication, etc",
+    "key": "CA-SUTA-435.0040"
+   },
+   {
+    "span": "435.0060 Bolting and Assembly Shelving",
+    "key": "CA-SUTA-435.0060"
+   },
+   {
+    "span": "435.0080 Charges for Delivery, Assembly, and Reconfiguration",
+    "key": "CA-SUTA-435.0080"
+   },
+   {
+    "span": "435.0100 Dismantling",
+    "key": "CA-SUTA-435.0100"
+   },
+   {
+    "span": "435.0120 Engineering Services",
+    "key": "CA-SUTA-435.0120"
+   },
+   {
+    "span": "435.0122 Fabrication",
+    "key": "CA-SUTA-435.0122"
+   },
+   {
+    "span": "435.0123 Fabrication Labor",
+    "key": "CA-SUTA-435.0123"
+   },
+   {
+    "span": "435.0130 Iridium",
+    "key": "CA-SUTA-435.0130"
+   },
+   {
+    "span": "435.0138 Platinum",
+    "key": "CA-SUTA-435.0138"
+   },
+   {
+    "span": "435.0140 Reassembling Tangible Personal Property That Has Been Previously Assembled",
+    "key": "CA-SUTA-435.0140"
+   },
+   {
+    "span": "435.0143 Reassembly",
+    "key": "CA-SUTA-435.0143"
+   },
+   {
+    "span": "435.0144 Repair vs. Fabrication",
+    "key": "CA-SUTA-435.0144"
+   },
+   {
+    "span": "435.0144.750 Salvaging of Raw Materials",
+    "key": "CA-SUTA-435.0144.750"
+   },
+   {
+    "span": "435.0145 Shelving",
+    "key": "CA-SUTA-435.0145"
+   },
+   {
+    "span": "435.0150 Tapes and Reels",
+    "key": "CA-SUTA-435.0150"
+   },
+   {
+    "span": "435.0152 Television Filming Sets",
+    "key": "CA-SUTA-435.0152"
+   }
+  ]
+ },
+ "032676283206ccba#0|09055c349f801c79b8534792e457007441a8ee52fe2b55c139555235e125c403": {
+  "references": [
+   {
+    "span": "200.0000 Credit Sales and Repossessions—Regulation 1641 (View entire section)",
+    "key": "CA-SUTA-200.0000"
+   },
+   {
+    "span": "Regulation 1641 (View entire section)",
+    "key": "CA-REG-1641"
+   },
+   {
+    "span": "200.0020 \"Abandonment Charge\"",
+    "key": "CA-SUTA-200.0020"
+   },
+   {
+    "span": "200.0040 Assignment of Conditional Sales Contract",
+    "key": "CA-SUTA-200.0040"
+   },
+   {
+    "span": "200.0060 Chattel Mortgage, Repossession and Sale of Property Secured Under",
+    "key": "CA-SUTA-200.0060"
+   },
+   {
+    "span": "200.0080 Finance Companies",
+    "key": "CA-SUTA-200.0080"
+   },
+   {
+    "span": "200.0100 Financing as Condition Precedent",
+    "key": "CA-SUTA-200.0100"
+   },
+   {
+    "span": "200.0106 Financing Contracts",
+    "key": "CA-SUTA-200.0106"
+   },
+   {
+    "span": "200.0108 Financing Transaction",
+    "key": "CA-SUTA-200.0108"
+   },
+   {
+    "span": "200.0120 Installment Payment Plan",
+    "key": "CA-SUTA-200.0120"
+   },
+   {
+    "span": "200.0124 Interest Charge",
+    "key": "CA-SUTA-200.0124"
+   },
+   {
+    "span": "200.0160 Lay-Away Sales",
+    "key": "CA-SUTA-200.0160"
+   },
+   {
+    "span": "200.0165 Lease and Leaseback",
+    "key": "CA-SUTA-200.0165"
+   },
+   {
+    "span": "200.0180 Repossession",
+    "key": "CA-SUTA-200.0180"
+   },
+   {
+    "span": "200.0220 Tagging and Reservation of Goods",
+    "key": "CA-SUTA-200.0220"
+   }
+  ]
+ },
+ "0411922f3edef135#0|e2ad3b24c594e7d3455fdd2837e72385a73b28f7485c5bf57d3b6e5780c9fae3": {
+  "references": [
+   {
+    "span": "445.0000 Rate of Tax—Change In (View entire section)",
+    "key": "CA-SUTA-445.0000"
+   },
+   {
+    "span": "445.0010 Coin Operated Copy Machine",
+    "key": "CA-SUTA-445.0010"
+   },
+   {
+    "span": "445.0020 Delivery after Change",
+    "key": "CA-SUTA-445.0020"
+   },
+   {
+    "span": "445.0060 Withholding Sales Tax from Gasoline Tax Refunds",
+    "key": "CA-SUTA-445.0060"
+   }
+  ]
+ },
+ "042604a37e1bb882#0|13118d5e4df3e3061cf48f1ba0721126885fcf3e8fde733f5c6c10f2e364e87a": {
+  "references": [
+   {
+    "span": "500.0000 HISTORICAL PROPERTY",
+    "key": "CA-PTA-500.0000"
+   },
+   {
+    "span": "500.0005 Change in Ownership/New Construction.",
+    "key": "CA-PTA-500.0005"
+   },
+   {
+    "span": "500.0008 Conservation Easement.",
+    "key": "CA-PTA-500.0008"
+   },
+   {
+    "span": "500.0030 New Construction.",
+    "key": "CA-PTA-500.0030"
+   },
+   {
+    "span": "500.0040 Supplemental Assessments.",
+    "key": "CA-PTA-500.0040"
+   },
+   {
+    "span": "500.0050 Valuation.",
+    "key": "CA-PTA-500.0050"
+   },
+   {
+    "span": "500.0051 Valuation.",
+    "key": "CA-PTA-500.0051"
+   }
+  ]
+ },
+ "060f0c118f2fe43d#0|7a469b055e78c228353928a7be1eef586574cc3843ec63da54498f2aba70cbb3": {
+  "references": [
+   {
+    "span": "[210.0000 Demonstration, Display and Use of Property Held for Resale—General—Regulation 1669 (View entire section)]",
+    "key": "CA-SUTA-210.0000"
+   },
+   {
+    "span": "Regulation 1669",
+    "key": "CA-REG-1669"
+   },
+   {
+    "span": "[210.0012 Accommodation Loans of Rental Equipment]",
+    "key": "CA-SUTA-210.0012"
+   },
+   {
+    "span": "[210.0019 Aircraft]",
+    "key": "CA-SUTA-210.0019"
+   },
+   {
+    "span": "[210.0020 Aircraft]",
+    "key": "CA-SUTA-210.0020"
+   },
+   {
+    "span": "[210.0041 Benchmark Testing]",
+    "key": "CA-SUTA-210.0041"
+   },
+   {
+    "span": "[210.0045 Brood Mares—When Use Occurs]",
+    "key": "CA-SUTA-210.0045"
+   },
+   {
+    "span": "[210.0049 Bumpers Used to Make Templates]",
+    "key": "CA-SUTA-210.0049"
+   },
+   {
+    "span": "[210.0055 Candles]",
+    "key": "CA-SUTA-210.0055"
+   },
+   {
+    "span": "[210.0057 Carpet Samples]",
+    "key": "CA-SUTA-210.0057"
+   },
+   {
+    "span": "[210.0058 Carpet Samples]",
+    "key": "CA-SUTA-210.0058"
+   },
+   {
+    "span": "[210.0060 Charge for Demonstration]",
+    "key": "CA-SUTA-210.0060"
+   },
+   {
+    "span": "[210.0065 Clearing House for Nonprofit Agencies]",
+    "key": "CA-SUTA-210.0065"
+   },
+   {
+    "span": "[210.0068 Clothing Samples]",
+    "key": "CA-SUTA-210.0068"
+   },
+   {
+    "span": "[210.0085 Demonstration to Sales and Service Personnel]",
+    "key": "CA-SUTA-210.0085"
+   },
+   {
+    "span": "[210.0095 Distribution of Partnership Share of Horse]",
+    "key": "CA-SUTA-210.0095"
+   },
+   {
+    "span": "[210.0110 Equipment Loans]",
+    "key": "CA-SUTA-210.0110"
+   },
+   {
+    "span": "[210.0116 Erroneous Taking of Depreciation]",
+    "key": "CA-SUTA-210.0116"
+   },
+   {
+    "span": "[210.0120 Examination Copies of Text Books Furnished to School]",
+    "key": "CA-SUTA-210.0120"
+   },
+   {
+    "span": "[210.0140 Exhibit in Museum]",
+    "key": "CA-SUTA-210.0140"
+   },
+   {
+    "span": "[210.0152 Furniture Use in Model Mobile Homes]",
+    "key": "CA-SUTA-210.0152"
+   },
+   {
+    "span": "[210.0160 \"Held for Sale\"]",
+    "key": "CA-SUTA-210.0160"
+   },
+   {
+    "span": "[210.0170 Intervening Use]",
+    "key": "CA-SUTA-210.0170"
+   },
+   {
+    "span": "[210.0180 Jewelry Worn by Actress]",
+    "key": "CA-SUTA-210.0180"
+   },
+   {
+    "span": "[210.0194 Leased Equipment Held For Resale by Lessee]",
+    "key": "CA-SUTA-210.0194"
+   },
+   {
+    "span": "[210.0200 Loans of Video Tapes to Employees]",
+    "key": "CA-SUTA-210.0200"
+   }
+  ]
+ },
+ "0629c58e18196933#0|20b90ce313a44bc8ae400e3e852838fc275f3d05862c8ccb6ad9bc6682899d0f": {
+  "references": [
+   {
+    "span": "Regulation 1621 (View entire section)",
+    "key": "CA-REG-1621"
+   },
+   {
+    "span": "Regulation 1621(b)(1)",
+    "key": "CA-REG-1621"
+   }
+  ]
+ },
+ "005abdac77f88ddc#0|e24afded8f0407b77d46eea510c6f6c82d9fde0f21e4bc8b95f1e95f76b946d8": {
+  "references": []
+ },
+ "00939c4328c65d68#0|e4e252703f13c5df6547773098cb81be4d1b42a73a1999d717c332103a794e25": {
+  "references": [
+   {
+    "span": "105.0059.200 Common Carriage—Banner Towing and Aerial Photography",
+    "key": "CA-SUTA-105.0059.200"
+   },
+   {
+    "span": "105.0060 Common Carrier",
+    "key": "CA-SUTA-105.0060"
+   },
+   {
+    "span": "105.0061 Common Carrier",
+    "key": "CA-SUTA-105.0061"
+   },
+   {
+    "span": "105.0062 Common Carrier",
+    "key": "CA-SUTA-105.0062"
+   },
+   {
+    "span": "105.0063 Common Carrier",
+    "key": "CA-SUTA-105.0063"
+   },
+   {
+    "span": "105.0064 Common Carrier",
+    "key": "CA-SUTA-105.0064"
+   },
+   {
+    "span": "105.0065 Common Carrier",
+    "key": "CA-SUTA-105.0065"
+   },
+   {
+    "span": "105.0065.500 Cargo Containers, Pallets and Nets",
+    "key": "CA-SUTA-105.0065.500"
+   },
+   {
+    "span": "105.0066 Common Carrier—Operational Use",
+    "key": "CA-SUTA-105.0066"
+   },
+   {
+    "span": "105.0066.500 Common Carrier Presumption",
+    "key": "CA-SUTA-105.0066.500"
+   },
+   {
+    "span": "105.0067 Common Carrier Status—Sale to Related Corporation",
+    "key": "CA-SUTA-105.0067"
+   },
+   {
+    "span": "105.0069 Common Carrier Use",
+    "key": "CA-SUTA-105.0069"
+   },
+   {
+    "span": "105.0070 Common Carrier Use",
+    "key": "CA-SUTA-105.0070"
+   },
+   {
+    "span": "105.0071 Common Carrier Use",
+    "key": "CA-SUTA-105.0071"
+   },
+   {
+    "span": "105.0076 Corporate Aircraft Used in Interstate Operations",
+    "key": "CA-SUTA-105.0076"
+   },
+   {
+    "span": "105.0080 Corporations",
+    "key": "CA-SUTA-105.0080"
+   },
+   {
+    "span": "105.0085 Crop-Dusting",
+    "key": "CA-SUTA-105.0085"
+   },
+   {
+    "span": "105.0087 Delivery to Nonresident",
+    "key": "CA-SUTA-105.0087"
+   },
+   {
+    "span": "105.0088 Exclusive Use in Interstate Commerce",
+    "key": "CA-SUTA-105.0088"
+   },
+   {
+    "span": "105.0089.500 Fire Extinguisher—Loading and Unloading Equipment",
+    "key": "CA-SUTA-105.0089.500"
+   },
+   {
+    "span": "105.0090 Firefighting Flights and External Load Operations",
+    "key": "CA-SUTA-105.0090"
+   },
+   {
+    "span": "105.0100 Gliders",
+    "key": "CA-SUTA-105.0100"
+   },
+   {
+    "span": "105.0120 Helicopter",
+    "key": "CA-SUTA-105.0120"
+   },
+   {
+    "span": "105.0122 Helicopters Used in Fire Fighting",
+    "key": "CA-SUTA-105.0122"
+   },
+   {
+    "span": "105.0125 Helicopter Used for Medical Transportation",
+    "key": "CA-SUTA-105.0125"
+   },
+   {
+    "span": "105.0130 Hot Air Balloons",
+    "key": "CA-SUTA-105.0130"
+   },
+   {
+    "span": "105.0131 Hot Air Balloons",
+    "key": "CA-SUTA-105.0131"
+   },
+   {
+    "span": "105.0140 Hovercraft",
+    "key": "CA-SUTA-105.0140"
+   },
+   {
+    "span": "105.0155 Lease to Common Carrier After Private Lease",
+    "key": "CA-SUTA-105.0155"
+   },
+   {
+    "span": "105.0160 Lease of Part of Aircraft",
+    "key": "CA-SUTA-105.0160"
+   },
+   {
+    "span": "105.0170 Leased Aircraft—Repair Parts",
+    "key": "CA-SUTA-105.0170"
+   },
+   {
+    "span": "105.0180 Leasing",
+    "key": "CA-SUTA-105.0180"
+   },
+   {
+    "span": "105.0185 Loan of Engines",
+    "key": "CA-SUTA-105.0185"
+   },
+   {
+    "span": "105.0190 Modifications to Aircraft",
+    "key": "CA-SUTA-105.0190"
+   },
+   {
+    "span": "105.0192 Noncommon Carriage Operation",
+    "key": "CA-SUTA-105.0192"
+   },
+   {
+    "span": "105.0195 Powerline and Pipeline Patrol",
+    "key": "CA-SUTA-105.0195"
+   },
+   {
+    "span": "105.0197 Principal Use Test",
+    "key": "CA-SUTA-105.0197"
+   },
+   {
+    "span": "105.0200 Purchase of Aircraft",
+    "key": "CA-SUTA-105.0200"
+   },
+   {
+    "span": "105.0204 Refrigerators Installed in New Aircraft",
+    "key": "CA-SUTA-105.0204"
+   },
+   {
+    "span": "105.0205 Replacement Parts for Aircraft",
+    "key": "CA-SUTA-105.0205"
+   },
+   {
+    "span": "105.0220 Sale and Installation of a Wiring System to a Foreign Carrier",
+    "key": "CA-SUTA-105.0220"
+   },
+   {
+    "span": "105.0260 Simultaneous Transactions",
+    "key": "CA-SUTA-105.0260"
+   },
+   {
+    "span": "105.0290 Sublease to Common Carrier",
+    "key": "CA-SUTA-105.0290"
+   },
+   {
+    "span": "105.0293 Sublease in Common Carrier Service",
+    "key": "CA-SUTA-105.0293"
+   },
+   {
+    "span": "105.0296 Telephones Installed on Aircraft",
+    "key": "CA-SUTA-105.0296"
+   },
+   {
+    "span": "105.0550 Use of Aircraft",
+    "key": "CA-SUTA-105.0550"
+   }
+  ]
+ },
+ "011370a286bd8ea6#0|6d2bf8b272b82b1ec6e645f7e3058258b9981f7aebbe160e26dda52ebb45537b": {
+  "references": [
+   {
+    "span": "Revenue and Taxation Code section 63.1",
+    "key": "CA-RTC-63.1"
+   },
+   {
+    "span": "Revenue and Taxation Code section 63.1(a)(3)(D)",
+    "key": "CA-RTC-63.1"
+   },
+   {
+    "span": "Revenue and Taxation Code section 63.1(d)(2)",
+    "key": "CA-RTC-63.1"
+   },
+   {
+    "span": "Revenue and Taxation Code section 63.1.",
+    "key": "CA-RTC-63.1"
+   }
+  ]
+ },
+ "01bb0355a1713e91#0|20f364ac5757bbb8be69c280aa514d2fc5efcc9b962f23652e7c2121b7da6846": {
+  "references": [
+   {
+    "span": "12801. Controller's annual report of delinquent insurers.",
+    "key": "CA-RTC-12801"
+   }
+  ]
+ },
+ "02485283633a42ba#0|6460734ff4d731d4f4da5ec4a9fa4c287959408f5ab165c83ccf2d57d5749be2": {
+  "references": [
+   {
+    "span": "38901. Collection and deposit. All taxes, interest and penalties imposed and all amounts of tax required to be paid under this part shall be made in remittances to the State Board of Equalization and shall be deposited in the State Treasury as provided in this chapter.",
+    "key": "CA-RTC-38901"
+   },
+   {
+    "span": "38902. Timber tax reserve fund. [Repealed by Stats. 1984, Ch. 678, in effect January 1, 1985.]",
+    "key": "CA-RTC-38902"
+   },
+   {
+    "span": "38903. Timber tax fund. (a) All taxes, interest, penalties and other amounts paid or collected pursuant to this part on or before July 31, 1983, except taxes paid or collected pursuant to Section 38301, shall be deposited in the Timber Tax Fund, which is hereby created.\n(b) On and after August 1, 1983, all taxes, interest, penalties, and other amounts paid or collected pursuant to this part shall be deposited in the Timber Tax Fund.",
+    "key": "CA-RTC-38903"
+   },
+   {
+    "span": "Section 38301,",
+    "key": "CA-RTC-38301"
+   }
+  ]
+ },
+ "028f876d7a801edb#0|101bb9928fe677564b877ceeb0bc9e2de3497ba02cbe8ad4d4c0a6aa44318e3e": {
+  "references": [
+   {
+    "span": "Regulation 2550(a)",
+    "key": "CA-REG-2550"
+   },
+   {
+    "span": "Regulation 2550(b)",
+    "key": "CA-REG-2550"
+   }
+  ]
+ },
+ "036ed16e541957d3#0|e833a03822befba6fbbba0d0f4f1395c9ecb00e6c825c04c527ab56078d2d02e": {
+  "references": []
+ },
+ "000ca690fe20895d#0|567761870c357bc77b33a048cb52fbb4260f52890b412c1824cf9e3a268cfde3": {
+  "references": [
+   {
+    "span": "6815. Effect of security for tax when business discontinued.",
+    "key": "CA-RTC-6815"
+   },
+   {
+    "span": "Section 6701",
+    "key": "CA-RTC-6701"
+   }
+  ]
+ },
+ "00f024d6a6b54134#0|5c29fedb2e7213580ce922c1042734c74e30500065c12e3086957ffa61a0f3f5": {
+  "references": [
+   {
+    "span": "Section 6025",
+    "key": "CA-RTC-6025"
+   },
+   {
+    "span": "6025. Title of chapter.",
+    "key": "CA-RTC-6025"
+   }
+  ]
+ },
+ "012acf8d97141bf5#0|72c075c9065c9f8d6ede681c48aadb08e47a47ab6ea38ab7eb795586a22947b2": {
+  "references": [
+   {
+    "span": "6021. Vending machine operators.",
+    "key": "CA-RTC-6021"
+   }
+  ]
+ },
+ "02cc79ebf6215da6#0|4659333e84dbd4efd1ad2e425fb3a02e782b9a839a892d9d362718c409bf72cb": {
+  "references": [
+   {
+    "span": "Section 6937",
+    "key": "CA-RTC-6937"
+   }
+  ]
+ },
+ "02e2436141c25d55#0|1034b15ec1ae3cf9dc7aec23d0e0cd5747cd80935472c85bd53ff1b158a04c7c": {
+  "references": [
+   {
+    "span": "6703. Notice of levy.",
+    "key": "CA-RTC-6703"
+   }
+  ]
+ },
+ "04877f114dfc2c86#0|f2047cb67745d1168f0a8a34fff4e5451365b60c7d9b03930be205e0ea2268a9": {
+  "references": [
+   {
+    "span": "6072. Inactive permit.",
+    "key": "CA-RTC-6072"
+   },
+   {
+    "span": "Section 6591.5,",
+    "key": "CA-RTC-6591.5"
+   },
+   {
+    "span": "Section 19269.",
+    "key": "CA-RTC-19269"
+   }
+  ]
+ },
+ "05cdd6e364725754#0|a38225b07f69d33a8f03e11bec363b706ec528d3d80f2bd5f78f4c396c4e84ce": {
+  "references": [
+   {
+    "span": "6248. Presumption of purchase for use; vehicles, vessels, and aircraft.",
+    "key": "CA-RTC-6248"
+   }
+  ]
+ },
+ "032b01e57b999220#0|f901e3d181e6a9efcb0c2b60d221eb0a18ed4e50eac2d698922b8d4430df4bed": {
+  "references": [
+   {
+    "span": "7284.9. Legislative findings and declarations.",
+    "key": "CA-RTC-7284.9"
+   }
+  ]
+ },
+ "039d858d32389b4f#0|f763b009c80439dabc24b41438d6460e4edb3513d9cf1f127eec7e45714325ac": {
+  "references": [
+   {
+    "span": "7292.43. Repeal Date.",
+    "key": "CA-RTC-7292.43"
+   },
+   {
+    "span": "Section 7292.42,",
+    "key": "CA-RTC-7292.42"
+   }
+  ]
+ },
+ "04d4b7265b3b7d38#0|b90d40d1eb9d87390ea36a53456ff4cd4dcaeb00f7e82934458a5f47c9ecaac4": {
+  "references": [
+   {
+    "span": "7292.6.",
+    "key": "CA-RTC-7292.6"
+   },
+   {
+    "span": "Section 7292.5",
+    "key": "CA-RTC-7292.5"
+   }
+  ]
+ },
+ "054c74a224ccb9db#0|daecd7b21548d6112976f163c919e05108a32dae9b10c285f391f29965455070": {
+  "references": [
+   {
+    "span": "7300.4.",
+    "key": "CA-RTC-7300.4"
+   },
+   {
+    "span": "Section 7300.3",
+    "key": "CA-RTC-7300.3"
+   }
+  ]
+ },
+ "06ac49e375da3338#0|55d173d4932cbd6c6d27d23e272ce8b7647489531784eee48c38829c79c9597a": {
+  "references": [
+   {
+    "span": "7287.15. Authorization to levy; City of Palmdale.",
+    "key": "CA-RTC-7287.15"
+   },
+   {
+    "span": "Section 7251",
+    "key": "CA-RTC-7251"
+   },
+   {
+    "span": "Section 7251.1",
+    "key": "CA-RTC-7251.1"
+   }
+  ]
+ },
+ "0b42724c6fc950c6#0|7f72c368d985ac9dcdcc9729a752f5ea6d9463eddac24b3aec33e6e64039d4f7": {
+  "references": [
+   {
+    "span": "Division 2. Other Taxes",
+    "key": "CA-RTC-2"
+   },
+   {
+    "span": "Part 1.7. Additional Local Taxes",
+    "key": "CA-RTC-1.7"
+   },
+   {
+    "span": "Chapter 3.76 Sonoma County Transactions and Use Tax*",
+    "key": "CA-RTC-3.76"
+   },
+   {
+    "span": "Section 7292.9",
+    "key": "CA-RTC-7292.9"
+   }
+  ]
+ },
+ "0b9453a00d7f787f#0|297be5b8d01f472a181c304e272143e0a2005138bf1735d6678685855d23b2f4": {
+  "references": [
+   {
+    "span": "7286.80.",
+    "key": "CA-RTC-7286.80"
+   },
+   {
+    "span": "(commencing with Section 7251).",
+    "key": "CA-RTC-7251"
+   }
+  ]
+ },
+ "0016ec19fff22e6e#0|007d5b02405aa5c198aaa56cbfa3b977d0d9b9be4c37247161605bb1842296ad": {
+  "references": [
+   {
+    "span": "570.0000 Use of Property in State and Use Tax Generally",
+    "key": "CA-SUTA-570.0000"
+   },
+   {
+    "span": "Annotation 570.0174",
+    "key": "CA-SUTA-570.0174"
+   },
+   {
+    "span": "section 6009.1.",
+    "key": "CA-RTC-6009.1"
+   }
+  ]
+ },
+ "001f58749c63de1a#0|90194c017091e2ebd0acf85d84af33baba4765d3a3f20caaf31ee9a7271e1928": {
+  "references": [
+   {
+    "span": "325.0000",
+    "key": "CA-SUTA-325.0000"
+   },
+   {
+    "span": "Regulation [1620]",
+    "key": "CA-REG-1620"
+   },
+   {
+    "span": "325.0690",
+    "key": "CA-SUTA-325.0690"
+   }
+  ]
+ },
+ "0025b6df5ebaaf9b#0|2094002824aa7883450675b0e3bfd7211d37c7edce5736f41715cd0e6d7ab252": {
+  "references": [
+   {
+    "span": "Regulation [1595]",
+    "key": "CA-REG-1595"
+   },
+   {
+    "span": "Annotation 395.0079",
+    "key": "CA-SUTA-395.0079"
+   },
+   {
+    "span": "Regulation 1502(f)(1)(D)",
+    "key": "CA-REG-1502"
+   }
+  ]
+ },
+ "00364691534e3e21#0|7924817631b9df6cf8cbb5d509dface9f52423602461ab0f4aab9afb898185bc": {
+  "references": [
+   {
+    "span": "Regulation [1620]",
+    "key": "CA-REG-1620"
+   },
+   {
+    "span": "325.0000",
+    "key": "CA-SUTA-325.0000"
+   },
+   {
+    "span": "325.0260",
+    "key": "CA-SUTA-325.0260"
+   }
+  ]
+ },
+ "0036916cb6597461#0|e23385ed25f39ef6bef9dcb01f5efe5e8610fc62fead545d3df6ffa7e0bbcb18": {
+  "references": [
+   {
+    "span": "220.0000",
+    "key": "CA-SUTA-220.0000"
+   },
+   {
+    "span": "Annotation 220.0125",
+    "key": "CA-SUTA-220.0125"
+   },
+   {
+    "span": "Revenue and Taxation Code section 6203 (c)(2)",
+    "key": "CA-RTC-6203"
+   }
+  ]
+ },
+ "00735a6c81ea702a#0|81827609366639dd1d312cdc1df3d427b5a0625ed1ace208eda10fcbe83342d0": {
+  "references": [
+   {
+    "span": "### 515.0000 Service Enterprises Generally—Regulation [1501](https://cdtfa.ca.gov/lawguides/vol1/sutr/1501.html)",
+    "key": "CA-SUTA-515.0000"
+   },
+   {
+    "span": "#### Annotation 515.0438",
+    "key": "CA-SUTA-515.0438"
+   },
+   {
+    "span": "Regulation [1501](https://cdtfa.ca.gov/lawguides/vol1/sutr/1501.html)",
+    "key": "CA-REG-1501"
+   }
+  ]
+ },
+ "009968ba0322361b#0|f1dcb6ec52117776625aadfd99774ed565e0cffe76c47f9fbd3a6e12e3828636": {
+  "references": [
+   {
+    "span": "440.0000 Property Used in Manufacturing—Regulation [1525](https://cdtfa.ca.gov/lawguides/vol1/sutr/1525.html)",
+    "key": "CA-SUTA-440.0000"
+   },
+   {
+    "span": "Regulation [1525](https://cdtfa.ca.gov/lawguides/vol1/sutr/1525.html)",
+    "key": "CA-REG-1525"
+   },
+   {
+    "span": "Annotation 440.2940",
+    "key": "CA-SUTA-440.2940"
+   }
+  ]
+ },
+ "0bf98a6442e4192a#0|f33ea4f0eede9e9babe7a9b8188c1e42076b07d41a7f2700f95b8835efdffdf6": {
+  "references": [
+   {
+    "span": "[810.0000](https://cdtfa.ca.gov/lawguides/vol2/tuta/810-0000-all.html)",
+    "key": "CA-SUTA-810.0000"
+   },
+   {
+    "span": "Regulation [1825](https://cdtfa.ca.gov/lawguides/vol1/tutr/1825.html)",
+    "key": "CA-REG-1825"
+   },
+   {
+    "span": "Annotation 810.0020",
+    "key": "CA-SUTA-810.0020"
+   },
+   {
+    "span": "Section 6421 of the Revenue and Taxation Code",
+    "key": "CA-RTC-6421"
+   }
+  ]
+ },
+ "1061ecb013a03c86#0|3365ccb9726d81ae397ed864236ce0fe04575ebc19a6704e02754c518d683615": {
+  "references": [
+   {
+    "span": "800.0001 Applicable Rate—Terminated District Tax.",
+    "key": "CA-SUTA-800.0001"
+   }
+  ]
+ },
+ "10da040b9c085ecc#0|f0998e33cce4588b00be6a264f5c2162e2d6db668a9b2837bfe9f5d1fbea9809": {
+  "references": [
+   {
+    "span": "800.0000 Application of Transactions (Sales) Tax and Use Tax—Regulation [1823]",
+    "key": "CA-SUTA-800.0000"
+   },
+   {
+    "span": "Regulation [1823]",
+    "key": "CA-REG-1823"
+   },
+   {
+    "span": "Annotation 800.0008",
+    "key": "CA-SUTA-800.0008"
+   }
+  ]
+ },
+ "024a29fd9331eb23#0|fae6c6c95501ea4e42f526c4e93998c757e47f28fdb712dc6974bd8b2898f750": {
+  "references": [
+   {
+    "span": "710.0000 Place of Sale for Purposes of Bradley-Burns Uniform Local Sales and Use Taxes—Regulation [1802](https://cdtfa.ca.gov/lawguides/vol1/ulsutr/1802.html)",
+    "key": "CA-SUTA-710.0000"
+   },
+   {
+    "span": "Regulation [1802]",
+    "key": "CA-REG-1802"
+   },
+   {
+    "span": "Annotation 710.0020",
+    "key": "CA-SUTA-710.0020"
+   }
+  ]
+ },
+ "0ab00c7f035187e4#0|e85d4724cc25f5929d442dd2536516243c288d551efe596e12b6bfcbd62ce9fd": {
+  "references": [
+   {
+    "span": "Annotation 702.0900",
+    "key": "CA-SUTA-702.0900"
+   }
+  ]
+ },
+ "0b59b67e809b518e#0|d78dfbd5c029f8b7b44bf5937abd2c2358c7a86e7164225b52fc5704df5b5b45": {
+  "references": [
+   {
+    "span": "700.0000",
+    "key": "CA-SUTA-700.0000"
+   },
+   {
+    "span": "Regulation [1803]",
+    "key": "CA-REG-1803"
+   },
+   {
+    "span": "Annotation 700.0190",
+    "key": "CA-SUTA-700.0190"
+   }
+  ]
+ },
+ "0bc1dad4cee7c6c3#0|a76298d874350e892d0768395e1cd5c77b615d338583083ff9dbe30c27952748": {
+  "references": [
+   {
+    "span": "700.0000",
+    "key": "CA-SUTA-700.0000"
+   },
+   {
+    "span": "Regulation [1803]",
+    "key": "CA-REG-1803"
+   },
+   {
+    "span": "Annotation 700.0175",
+    "key": "CA-SUTA-700.0175"
+   }
+  ]
+ },
+ "0cd1e02673bfc89d#0|a3850d59d6706a0b5b6c1094d5bff5130d9a7b2afe296623ac58567abc287a54": {
+  "references": [
+   {
+    "span": "715.0000 Aircraft Common Carriers and Waterborne Vessels—Regulation [1805]",
+    "key": "CA-SUTA-715.0000"
+   },
+   {
+    "span": "Annotation 715.0120",
+    "key": "CA-SUTA-715.0120"
+   },
+   {
+    "span": "Regulation 1805.",
+    "key": "CA-REG-1805"
+   }
+  ]
+ },
+ "13f40a4804569efb#0|6bc2ebca5a69bad3947e9810679c628c1b64d9d5255275cfc6567da10f32110e": {
+  "references": [
+   {
+    "span": "715.0000",
+    "key": "CA-SUTA-715.0000"
+   },
+   {
+    "span": "Regulation [1805]",
+    "key": "CA-REG-1805"
+   },
+   {
+    "span": "Annotation 715.0310",
+    "key": "CA-SUTA-715.0310"
+   }
+  ]
+ },
+ "0491103abc881f59#0|a9f0b40844c1d873c482d509abaea40bed0d7c41b124ea6af773c17db862191b": {
+  "references": [
+   {
+    "span": "Section 41046 of the Revenue and Taxation Code",
+    "key": "CA-RTC-41046"
+   }
+  ]
+ },
+ "0b8c71126e52e368#0|de1136f5d9a5e2b62262c2dfce3316916e344925e76f0f26d2b64cee26357a5b": {
+  "references": []
+ },
+ "0d32d1c4692411af#0|6e34c3b0643becb6688ad36ea243eeb14a8a9cd7884980bdfd8a11aebc1092d6": {
+  "references": [
+   {
+    "span": "Sales and Use Tax Regulation 1620, subdivision (b)(3)–(5)",
+    "key": "CA-REG-1620"
+   }
+  ]
+ },
+ "12e71bcdd0eaedd9#0|f4d6bbef14ad7919a0b54721346c871b29690cb4541d3693c21547fef2ca9320": {
+  "references": [
+   {
+    "span": "Revenue and Taxation Code section 12202",
+    "key": "CA-RTC-12202"
+   }
+  ]
+ },
+ "14cd06919a2911af#0|4c4275848eebc6435521ac163002f4a7fdf3faf505426b04ed24d72c53c68277": {
+  "references": []
+ },
+ "00167b01d42b0139#0|eb770bda3167fd42d9053c27372a049efa79a161a4a52941c2c41f5c27e9c2b1": {
+  "references": [
+   {
+    "span": "Revenue and Taxation Code section 218.5",
+    "key": "CA-RTC-218.5"
+   },
+   {
+    "span": "Property Tax Rule 135",
+    "key": "CA-PTR-135"
+   }
+  ]
+ },
+ "00204b155c8c4ade#0|943c0e1eae8ba99dbd79b9e545494ad587c6fb9f914b2cc770a00380d3079e26": {
+  "references": [
+   {
+    "span": "Revenue and Taxation Code Section 61(a)",
+    "key": "CA-RTC-61"
+   }
+  ]
+ },
+ "003649bf77693249#0|f9b10bf6ec7ead4bc2654ec4073fa24fe646e3ae781b0d3188bba4a8761f59ea": {
+  "references": [
+   {
+    "span": "Annotation 220.0180",
+    "key": "CA-PTA-220.0180"
+   },
+   {
+    "span": "Revenue and Taxation Code section 66.",
+    "key": "CA-RTC-66"
+   }
+  ]
+ },
+ "004814cf3b17eac1#0|d29907937ae643b10b82a82f44c821da3812e017fa60a7496c50cf815bafc7f8": {
+  "references": [
+   {
+    "span": "Annotation 565.0020",
+    "key": "CA-PTA-565.0020"
+   },
+   {
+    "span": "480.1",
+    "key": "CA-RTC-480.1"
+   },
+   {
+    "span": "480.2",
+    "key": "CA-RTC-480.2"
+   },
+   {
+    "span": "482",
+    "key": "CA-RTC-482"
+   },
+   {
+    "span": "483",
+    "key": "CA-RTC-483"
+   },
+   {
+    "span": "section 64(c) or (d)",
+    "key": "CA-RTC-64"
+   }
+  ]
+ },
+ "0051f889c65a80e9#0|e549af38a9d83aa3b349af5e0dd929c4e87feae8732e131b730fc0ef1a729749": {
+  "references": [
+   {
+    "span": "### 180.0000 ASSESSMENT APPEALS",
+    "key": "CA-PTA-180.0000"
+   },
+   {
+    "span": "#### Annotation 180.0010",
+    "key": "CA-PTA-180.0010"
+   },
+   {
+    "span": "Property Tax Rule 305, subsection (e)(2)(C)(i)",
+    "key": "CA-PTR-305"
+   }
+  ]
+ },
+ "006a606a0c33615c#0|9a174ea639462597a5e041ed4c6244e7ef0622c9841f940b6b1a7ce21d347c3c": {
+  "references": [
+   {
+    "span": "Annotation 625.0081",
+    "key": "CA-PTA-625.0081"
+   }
+  ]
+ },
+ "00a0301eef7e8276#0|90513f562799d75d796fccaabe07c7b46ddfd3a72195d5521b2b58111b8952e7": {
+  "references": [
+   {
+    "span": "Annotation 625.0207",
+    "key": "CA-PTA-625.0207"
+   },
+   {
+    "span": "Revenue and Taxation Code section 63.1.",
+    "key": "CA-RTC-63.1"
+   }
+  ]
+ },
+ "0000e476cd819b57#0|0a0508bd8f3633329f6325f374c9e9109c73035e80a86ee3f5d26ee8d6add6eb": {
+  "references": [
+   {
+    "span": "Sales and Use Tax Regulation 1540(b)(4)(C)",
+    "key": "CA-REG-1540"
+   },
+   {
+    "span": "Regulation 1540(b)(4)(A)",
+    "key": "CA-REG-1540"
+   }
+  ]
+ },
+ "0024f03fa78cc3c2#0|f82401a9210aaa804ec155d64264a9aaf6b6bad28a3b8036f83cfd6afcc801b5": {
+  "references": [
+   {
+    "span": "Regulation 1591(i)",
+    "key": "CA-REG-1591"
+   },
+   {
+    "span": "Regulation 1591(b)(5)",
+    "key": "CA-REG-1591"
+   },
+   {
+    "span": "Sales and Use Tax Regulation 1591(i) provides that:",
+    "key": "CA-REG-1591"
+   },
+   {
+    "span": "section 6369.",
+    "key": "CA-RTC-6369"
+   },
+   {
+    "span": "Section 6369.",
+    "key": "CA-RTC-6369"
+   },
+   {
+    "span": "Section 6369(f)",
+    "key": "CA-RTC-6369"
+   },
+   {
+    "span": "Revenue and Taxation Code Section 6369(c)(4)",
+    "key": "CA-RTC-6369"
+   },
+   {
+    "span": "Section 6369(c)(2)",
+    "key": "CA-RTC-6369"
+   },
+   {
+    "span": "Regulation 1591(b)(4)",
+    "key": "CA-REG-1591"
+   },
+   {
+    "span": "Regulation 1591",
+    "key": "CA-REG-1591"
+   }
+  ]
+ },
+ "0035a9a15237177e#0|79500f01f9b83f95d60ac797ca12397086b2d64ee09e72fd9b81ac216cf2cefe": {
+  "references": []
+ },
+ "004cca498d96ab14#0|122bd054bc2b8872687a573a07631c81f7a84bba685a3ef74582c7a6842963ee": {
+  "references": [
+   {
+    "span": "Annotations 500.0080",
+    "key": "CA-SUTA-500.0080"
+   },
+   {
+    "span": "500.0123",
+    "key": "CA-SUTA-500.0123"
+   },
+   {
+    "span": "section 6385",
+    "key": "CA-RTC-6385"
+   },
+   {
+    "span": "Reg. 1621",
+    "key": "CA-REG-1621"
+   }
+  ]
+ },
+ "005240bde8cbc40f#0|eef7f89d8b99ca438a782de5e1b07c9dd2ef05073895f4e0da8b8dafada3a237": {
+  "references": []
+ },
+ "00554da7d5ae2874#0|edf9427ed9b3f48ee5893dcea283796c39cdbb01e660dcaba0f43950bab7603c": {
+  "references": []
+ },
+ "005854ca3b2e0e17#0|9be6fc5b480c9146a528f5eb2b1e817bd4f4cc61fcbc0ea980b53cba3369e9c2": {
+  "references": []
+ },
+ "0000617b887578fb#0|153b3afabf48f7f5c280544cbbf90af3dc7c2ce1cde4c8cbf7f587132f43cc50": {
+  "references": [
+   {
+    "span": "Sales and Use Tax Regulation 1507",
+    "key": "CA-REG-1507"
+   }
+  ]
+ },
+ "0123e39553f9ff23#0|3b1fc345092ee099643368f82ca636987bf0991f5eb803c973990038ffa8b6f2": {
+  "references": []
+ },
+ "021f9f64fb629bee#0|fbc4fae06d3c4ac7a779ac64ec22770e1204e4d6f9b6d685b3ca207b97c4b4d7": {
+  "references": []
+ },
+ "0442ebeadb939d56#0|8a11ec3fb2e0be0bc42d1dbf10b5599c09ee864e4b65059476cb8a9400f531e4": {
+  "references": []
+ },
+ "0450aeac1f22d96c#0|3444055e7e4b9858329ada2144c5b2fd8e3b6736696b36f97492d54676fe4d79": {
+  "references": [
+   {
+    "span": "Revenue and Taxation Code Section 6359.4",
+    "key": "CA-RTC-6359.4"
+   },
+   {
+    "span": "Revenue and Taxation Code Section 6364(a)",
+    "key": "CA-RTC-6364"
+   },
+   {
+    "span": "Board's Regulation 1574",
+    "key": "CA-REG-1574"
+   }
+  ]
+ },
+ "0688ef257636cec2#0|64decd29d0d3fc4a36247284262c6fc942b09a801a5f20e6c85ab27462456844": {
+  "references": [
+   {
+    "span": "Revenue and Taxation Code Section 6051",
+    "key": "CA-RTC-6051"
+   },
+   {
+    "span": "Section 6006(g)",
+    "key": "CA-RTC-6006"
+   },
+   {
+    "span": "Regulation 1501",
+    "key": "CA-REG-1501"
+   }
+  ]
+ },
+ "004d8905c25a0c39#0|67c41d6014944985a08de47ff073b451dad050fe73652bd921a9f730bd5fb983": {
+  "references": [
+   {
+    "span": "publication 70, _Understanding Your Rights as a California Taxpayer_",
+    "key": "CA-CDTFA-PUB-70"
+   },
+   {
+    "span": "Publication 34, _Motor Vehicle Dealers_",
+    "key": "CA-CDTFA-PUB-34"
+   },
+   {
+    "span": "Publication 44, _District Taxes_",
+    "key": "CA-CDTFA-PUB-44"
+   },
+   {
+    "span": "Publication 46, _Leasing Tangible Personal Property_",
+    "key": "CA-CDTFA-PUB-46"
+   },
+   {
+    "span": "Publication 100, _Shipping and Delivery Charges_",
+    "key": "CA-CDTFA-PUB-100"
+   },
+   {
+    "span": "Regulation 1822, _Place of Sale for Purposes of Transactions (Sales) and Use Taxes_",
+    "key": "CA-REG-1822"
+   },
+   {
+    "span": "Regulation 1823.4, _Place of Delivery of Tangible Personal Property Generally_",
+    "key": "CA-REG-1823.4"
+   },
+   {
+    "span": "Regulation 1823.5, _Place of Delivery of Certain Vehicles, Aircraft, and Undocumented Vessels_",
+    "key": "CA-REG-1823.5"
+   },
+   {
+    "span": "Regulation 1827, _Collection of Use Tax by Retailers_",
+    "key": "CA-REG-1827"
+   }
+  ]
+ },
+ "005693ce60b212a5#0|c4dc52af22f95f4b365c39a7fed994de86594470b62d181cb96eb8c1f1e411fa": {
+  "references": [
+   {
+    "span": "Regulation 1621",
+    "key": "CA-REG-1621"
+   },
+   {
+    "span": "section 6385(a) of the California Revenue and Taxation Code.",
+    "key": "CA-RTC-6385"
+   }
+  ]
+ },
+ "005ec1132bec8c6d#0|56d238a19f47fe07a389bfebb208d97e3f028402e3d533d71ef3145955faca7e": {
+  "references": [
+   {
+    "span": "Section 6377",
+    "key": "CA-RTC-6377"
+   },
+   {
+    "span": "Revenue and Taxation Code section 6377",
+    "key": "CA-RTC-6377"
+   }
+  ]
+ },
+ "006b37d37623106d#0|4b405917e4b450afb0d8c0f2595aabe28475e93ae0b85af1e0786a575264e2b1": {
+  "references": []
+ },
+ "007af47757cac97b#0|f81fe24f6cda936e0a0c6bf260993d700da8322b971923b93ba84225fba7559b": {
+  "references": [
+   {
+    "span": "Regulation 1546, _Installing, Repairing, Reconditioning in General_",
+    "key": "CA-REG-1546"
+   }
+  ]
+ },
+ "0194dbbdf622bb16#0|009485f1cb7e916abb3a0a4e86b5ffab029df76eac7a26d7fbfc646ae235382e": {
+  "references": []
+ },
+ "01d12aaeaed9c8bd#0|da07a87ad5afd963d8078303262f90030cecb3f9f7be2a774ed99e48ffd4052e": {
+  "references": [
+   {
+    "span": "#  Legal ruling 389",
+    "key": "CA-FTB-LR-389"
+   },
+   {
+    "span": "Section 24404 of the Bank and Corporation Tax Law",
+    "key": "CA-RTC-24404"
+   },
+   {
+    "span": "Section 24404(a) and (b)",
+    "key": "CA-RTC-24404"
+   }
+  ]
+ },
+ "02355c9b37698fb4#0|24f35dcfd23e95089ada10fb5788646d7d018d71dc0db3f408caa8ba70e8ab2e": {
+  "references": [
+   {
+    "span": "Title 18, Cal. Code of Regs. §25111-1(g), effective for income years beginning on or after January 1, 1994, provides:",
+    "key": "CA-REG-25111-1"
+   },
+   {
+    "span": "18 Cal. Code of Regs. §25111(g), effective for income years beginning prior to January 1, 1994, except that §25111(g) refers to a 60-month rather than an 84-month election period.",
+    "key": "CA-REG-25111"
+   },
+   {
+    "span": "Revenue and Taxation Code (RTC) §25111.1 provides:",
+    "key": "CA-RTC-25111.1"
+   },
+   {
+    "span": "Further, RTC §25115(n) provides that RTC §25115 shall remain in effect until January 1, 1994, and as of that date is repealed.",
+    "key": "CA-RTC-25115"
+   },
+   {
+    "span": "(RTC §25111.1(b).)",
+    "key": "CA-RTC-25111.1"
+   },
+   {
+    "span": "Corporation B will owe the election fee through the end of its income year ended in 1994 because RTC §25115 remains in effect for taxpayers whose income years begin prior to January 1, 1994.",
+    "key": "CA-RTC-25115"
+   }
+  ]
+ },
+ "0638fc30ec7fbb90#0|3360fe60ffa22cf8449d5c46a600868a7b8da6d4b199dfc45552f2b4e4f0aeb1": {
+  "references": [
+   {
+    "span": "Legal Ruling 1993-3",
+    "key": "CA-FTB-LR-1993-3"
+   },
+   {
+    "span": "Revenue and Taxation Code §17056",
+    "key": "CA-RTC-17056"
+   },
+   {
+    "span": "Section 17054",
+    "key": "CA-RTC-17054"
+   },
+   {
+    "span": "§17054(h)",
+    "key": "CA-RTC-17054"
+   },
+   {
+    "span": "Section 17054.1",
+    "key": "CA-RTC-17054.1"
+   }
+  ]
+ },
+ "08d5d8a97e013e6f#0|23361a9c2157a91eea1023cd193dfb9f34ee7e2a0ab196b04732b1f68e4e5a69": {
+  "references": [
+   {
+    "span": "Legal ruling 1995-8",
+    "key": "CA-FTB-LR-1995-8"
+   },
+   {
+    "span": "Revenue and Taxation Code (RTC) § 25101 states in pertinent part:",
+    "key": "CA-RTC-25101"
+   },
+   {
+    "span": "Title 18, California Code of Regulations (CCR) § 25101 states in pertinent part:",
+    "key": "CA-REG-25101"
+   },
+   {
+    "span": "sections 25120 to 25129, inclusive.",
+    "key": "CA-REG-25120"
+   },
+   {
+    "span": "sections 25120 to 25129, inclusive.",
+    "key": "CA-REG-25129"
+   },
+   {
+    "span": "Title 18, CCR § 25120(b) states in pertinent part:",
+    "key": "CA-REG-25120"
+   }
+  ]
+ },
+ "0cee60985fc33791#0|1e4a8aee5d48afd5b1fb5ce8460caa93c30bda5627a81e762048ef18408b8faa": {
+  "references": [
+   {
+    "span": "Legal Ruling 1958-84",
+    "key": "CA-FTB-LR-1958-84"
+   },
+   {
+    "span": "California Franchise Tax Board Legal Ruling No. 084",
+    "key": "CA-FTB-LR-084"
+   }
+  ]
+ },
+ "10bdc5256c75f8ea#0|d7379f9350e8bd9b47f49e02dfd4625280a292a4bce5a9686568f753cfb5a359": {
+  "references": [
+   {
+    "span": "Revenue and Taxation Code sections 17053.49 (Personal Income Tax (PIT) Law)",
+    "key": "CA-RTC-17053.49"
+   },
+   {
+    "span": "23649 (Bank and Corporation Tax (B&CT) Law).",
+    "key": "CA-RTC-23649"
+   },
+   {
+    "span": "Rev. & Tax Code §§ 17053.49(b)(1)(B) & 23469(b)(1)(B);",
+    "key": "CA-RTC-23469"
+   },
+   {
+    "span": "Title 18, California Code of Regulations, sections 17053.49-0 through 17053.49-11 (PIT)",
+    "key": "CA-REG-17053.49-0"
+   },
+   {
+    "span": "17053.49-0 through 17053.49-11 (PIT)",
+    "key": "CA-REG-17053.49-11"
+   },
+   {
+    "span": "and 23649-0 through 23649-11 (B&CT).",
+    "key": "CA-REG-23649-0"
+   },
+   {
+    "span": "23649-0 through 23649-11 (B&CT).",
+    "key": "CA-REG-23649-11"
+   },
+   {
+    "span": "Cal. Code Regs., tit. 18, §§ 17053.49-5 & 23649-5.",
+    "key": "CA-REG-17053.49-5"
+   },
+   {
+    "span": "Cal. Code Regs., tit. 18, §§ 17053.49-5 & 23649-5.",
+    "key": "CA-REG-23649-5"
+   },
+   {
+    "span": "Cal. Code Regs., tit. 18, §§ 17053.49-4(a) & 23649-4(a).",
+    "key": "CA-REG-17053.49-4"
+   },
+   {
+    "span": "Cal. Code Regs., tit. 18, §§ 17053.49-4(a) & 23649-4(a).",
+    "key": "CA-REG-23649-4"
+   },
+   {
+    "span": "Cal. Code Regs., tit. 18, §§ 17053.49-2(b) & 23649-2(b).",
+    "key": "CA-REG-17053.49-2"
+   },
+   {
+    "span": "Cal. Code Regs., tit. 18, §§ 17053.49-2(b) & 23649-2(b).",
+    "key": "CA-REG-23649-2"
+   }
+  ]
+ },
+ "03bc5655d918f3aa#0|b358b5b57229542cf796e0e6e83094171cada94a66d47262e95ee55a5d705ee7": {
+  "references": [
+   {
+    "span": "FTB NOTICE 2008 - 3",
+    "key": "CA-FTB-NOTICE-2008-3"
+   },
+   {
+    "span": "Revenue and Taxation Code (RTC) section 23701d",
+    "key": "CA-RTC-23701d"
+   },
+   {
+    "span": "1 RTC § 23701d(c)(1).",
+    "key": "CA-RTC-23701d"
+   },
+   {
+    "span": "RTC section 23701d(c)(1),",
+    "key": "CA-RTC-23701d"
+   },
+   {
+    "span": "2 RTC § 23701d(c)(1).",
+    "key": "CA-RTC-23701d"
+   },
+   {
+    "span": "RTC section 21012(a)(2)",
+    "key": "CA-RTC-21012"
+   },
+   {
+    "span": "FTB Notice 89-277 (May 10, 1989).",
+    "key": "CA-FTB-NOTICE-89-277"
+   },
+   {
+    "span": "3 RTC § 23701d(c)(3).",
+    "key": "CA-RTC-23701d"
+   }
+  ]
+ },
+ "05045f0a686bfd71#0|5962f09844ad5be8ba1a7aee3fea5dad8fc15a4572577483af7476a59365838d": {
+  "references": [
+   {
+    "span": "Section 17941 of the Revenue and Taxation Code",
+    "key": "CA-RTC-17941"
+   }
+  ]
+ },
+ "0941e54267ea4109#0|1c2c9363f2af5ce2e8aa6e73aa401f2d7b98c5f48dbb1d842d591335c0aaf7e5": {
+  "references": [
+   {
+    "span": "RTC section 17563.51",
+    "key": "CA-RTC-17563.51"
+   },
+   {
+    "span": "RTC sections 17564 and 24673.2",
+    "key": "CA-RTC-17564"
+   },
+   {
+    "span": "RTC section 24422.3",
+    "key": "CA-RTC-24422.3"
+   },
+   {
+    "span": "RTC section 24652",
+    "key": "CA-RTC-24652"
+   },
+   {
+    "span": "RTC section 24652.6",
+    "key": "CA-RTC-24652.6"
+   },
+   {
+    "span": "RTC section 24654",
+    "key": "CA-RTC-24654"
+   },
+   {
+    "span": "RTC sections 17564 and 24673.2",
+    "key": "CA-RTC-24673.2"
+   },
+   {
+    "span": "RTC section 24701",
+    "key": "CA-RTC-24701"
+   },
+   {
+    "span": "RTC section 18621.10",
+    "key": "CA-RTC-18621.10"
+   }
+  ]
+ },
+ "0b5cd84a7e451226#0|c8be64c6fb696e12c3c81e6a3f1268f30f95f3d9cf4f2d3fbb456a3448726c49": {
+  "references": [
+   {
+    "span": "FTB Notice 91-5",
+    "key": "CA-FTB-NOTICE-91-5"
+   },
+   {
+    "span": "Revenue and Taxation Code Section 25901b.",
+    "key": "CA-RTC-25901b"
+   },
+   {
+    "span": "Revenue and Taxation Code Section 19269.",
+    "key": "CA-RTC-19269"
+   },
+   {
+    "span": "18 Cal. Code Regs. §26422,",
+    "key": "CA-REG-26422"
+   },
+   {
+    "span": "FTB Notice 89-277.",
+    "key": "CA-FTB-NOTICE-89-277"
+   },
+   {
+    "span": "Revenue and Taxation Code §25664,",
+    "key": "CA-RTC-25664"
+   }
+  ]
+ },
+ "0daf982e997fdd7d#0|1c561a1f8cd00521327810c3be54ab594afd5297c646f6f5a9f9a45bb8c3638f": {
+  "references": [
+   {
+    "span": "FTB NOTICE 99-9",
+    "key": "CA-FTB-NOTICE-99-9"
+   },
+   {
+    "span": "Revenue and Taxation Code section 19041.5",
+    "key": "CA-RTC-19041.5"
+   },
+   {
+    "span": "amended RTC sections 23153 and 23221",
+    "key": "CA-RTC-23153"
+   },
+   {
+    "span": "amended RTC sections 23153 and 23221",
+    "key": "CA-RTC-23221"
+   },
+   {
+    "span": "RTC section 19147(a)(1)(A)",
+    "key": "CA-RTC-19147"
+   },
+   {
+    "span": "amended RTC section 19306",
+    "key": "CA-RTC-19306"
+   },
+   {
+    "span": "amends RTC section 19104",
+    "key": "CA-RTC-19104"
+   },
+   {
+    "span": "amended RTC section 18622",
+    "key": "CA-RTC-18622"
+   },
+   {
+    "span": "FTB Pub 1008",
+    "key": "CA-CDTFA-PUB-1008"
+   },
+   {
+    "span": "18 Cal. Code Regs. section 19059",
+    "key": "CA-REG-19059"
+   }
+  ]
+ },
+ "0f2bd75c3c5c2703#0|535ef3e1e8647a98a87679c1ec648631f27c795f8899d36c32493c88312fa8c8": {
+  "references": [
+   {
+    "span": "FTB NOTICE 98 -10",
+    "key": "CA-FTB-NOTICE-98-10"
+   }
+  ]
+ },
+ "000644a89fee05cf#0|23ac868688f8729f3608b4e9b139d95e6710c154200a918268d0268dbc4b8359": {
+  "references": []
+ },
+ "0015872d7d59b179#0|734e481fc2a295847a4f4bccdc1d3ad27225bcb85d168e27f3fca31de85357da": {
+  "references": [
+   {
+    "span": "R&TC Section 18031.5",
+    "key": "CA-RTC-18031.5"
+   }
+  ]
+ },
+ "001a2b42c3ee8384#0|669fec77a4321a1b67fad5462f1326152b08c2144196e2c97ec8bdda52225d3a": {
+  "references": []
+ },
+ "0050a9b577c58283#0|ff03a4d10a5b6377b5c62947d7a9afd4ca7006752901b835e7c47d24dc7b4925": {
+  "references": [
+   {
+    "span": "FTB Pub. 1001",
+    "key": "CA-CDTFA-PUB-1001"
+   },
+   {
+    "span": "FTB Pub. 737",
+    "key": "CA-CDTFA-PUB-737"
+   },
+   {
+    "span": "FTB Pub. 1032",
+    "key": "CA-CDTFA-PUB-1032"
+   }
+  ]
+ },
+ "005e54542de16585#0|a4136bcaa22a649b2756b8cc28cc090ae655e33160ce498bc948223c925cd94a": {
+  "references": []
+ },
+ "008f5336adbabf97#0|b08ab55f489757a99e8d4d25711782b9984c38b9a202f77a9504fd524c23bc18": {
+  "references": [
+   {
+    "span": "R&TC Section 41 Reporting Requirements .................................................. 4",
+    "key": "CA-RTC-41"
+   }
+  ]
+ },
+ "000b41af90e09547#0|36f64ddc18aa33661a7e1e2785bf0048c31251606c9a4aebef145cfad0b0906c": {
+  "references": [
+   {
+    "span": "Property Tax Rule  474",
+    "key": "CA-PTR-474"
+   },
+   {
+    "span": "Sections 51, 53.5, and 110.1, Revenue and Taxation Code",
+    "key": "CA-RTC-51"
+   },
+   {
+    "span": "Sections 51, 53.5, and 110.1, Revenue and Taxation Code",
+    "key": "CA-RTC-53.5"
+   },
+   {
+    "span": "Sections 51, 53.5, and 110.1, Revenue and Taxation Code",
+    "key": "CA-RTC-110.1"
+   },
+   {
+    "span": "section 3 of title 18 of this code",
+    "key": "CA-REG-3"
+   }
+  ]
+ },
+ "000ce6ef3420d023#0|b0f8ad6e3d830d4c83974424edffb994bf13e7f7416aa2811333489cb7865fd0": {
+  "references": []
+ },
+ "00117ce0b9868167#0|f5f9771576b330c8a662aa476ad2db66f70870b84ec947fe685eae46a398cc55": {
+  "references": []
+ },
+ "0017fd4f5f7f13be#0|e0b27ee677c562284d038ffe413713a11112fad6f7a570c54e1e4892d1888abf": {
+  "references": [
+   {
+    "span": "Regulation 1591(c)(2)",
+    "key": "CA-REG-1591"
+   }
+  ]
+ },
+ "001b4e6710270bc3#0|8dc91464d520f5a98428fd0230d6b6f37cd8600f3d988ae7fd68c29110bbcceb": {
+  "references": [
+   {
+    "span": "7051.1. Retailers; direct payment permit.",
+    "key": "CA-RTC-7051.1"
+   }
+  ]
+ },
+ "001d6f3888bfc3c1#0|e9a77a8872929227ab7c02aace173834c8c33d14ea92abd735ee6a3946f97c6e": {
+  "references": [
+   {
+    "span": "Revenue and Taxation Code section 41020",
+    "key": "CA-RTC-41020"
+   },
+   {
+    "span": "Revenue and Taxation Code section 41098",
+    "key": "CA-RTC-41098"
+   },
+   {
+    "span": "Part 20 (commencing with section 41001) of division 2 of the Revenue and Taxation Code.",
+    "key": "CA-RTC-41001"
+   },
+   {
+    "span": "California Code of Regulations, title 18, section 4902.",
+    "key": "CA-REG-4902"
+   },
+   {
+    "span": "(Cal. Code Regs., tit. 18, § 5700, subds. (a)(l), (c)(2).)",
+    "key": "CA-REG-5700"
+   }
+  ]
+ },
+ "b05eb9b0d23e93be#2|16305e934542c794458a8e0f840e7b25d4d9a07751e068a332a800a3fe508c26": {
+  "references": [
+   {
+    "span": "RTC §§ 6011, subd. (c)(10)(D)",
+    "key": "CA-RTC-6011"
+   },
+   {
+    "span": "6012, subd. (c)(10)(D)",
+    "key": "CA-RTC-6012"
+   },
+   {
+    "span": "(RTC § 7051.)",
+    "key": "CA-RTC-7051"
+   },
+   {
+    "span": "§ 6051.",
+    "key": "CA-RTC-6051"
+   },
+   {
+    "span": "Regulation 1507",
+    "key": "CA-REG-1507"
+   },
+   {
+    "span": "Cal. Code Regs., tit. 18, § 1502, subd. (b).",
+    "key": "CA-REG-1502"
+   }
+  ]
+ }
+}
