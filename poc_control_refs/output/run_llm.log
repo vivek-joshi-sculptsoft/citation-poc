@@ -1,0 +1,194 @@
+PINECONE READ-ONLY MODE: allowed = list, list_paginated, fetch, describe_index_stats
+Listing up to 5000 IDs in namespace 'california' ...
+Fetching metadata for 5001 IDs ...
+  fetched 100/5001  fetched 200/5001  fetched 300/5001  fetched 400/5001  fetched 500/5001  fetched 600/5001  fetched 700/5001  fetched 800/5001  fetched 900/5001  fetched 1000/5001  fetched 1100/5001  fetched 1200/5001  fetched 1300/5001  fetched 1400/5001  fetched 1500/5001  fetched 1600/5001  fetched 1700/5001  fetched 1800/5001  fetched 1900/5001  fetched 2000/5001  fetched 2100/5001  fetched 2200/5001  fetched 2300/5001  fetched 2400/5001  fetched 2500/5001  fetched 2600/5001  fetched 2700/5001  fetched 2800/5001  fetched 2900/5001  fetched 3000/5001  fetched 3100/5001  fetched 3200/5001  fetched 3300/5001  fetched 3400/5001  fetched 3500/5001  fetched 3600/5001  fetched 3700/5001  fetched 3800/5001  fetched 3900/5001  fetched 4000/5001  fetched 4100/5001  fetched 4200/5001  fetched 4300/5001  fetched 4400/5001  fetched 4500/5001  fetched 4600/5001  fetched 4700/5001  fetched 4800/5001  fetched 4900/5001  fetched 5000/5001  fetched 5001/5001
+Scanned / picked per group:
+  index_page                     22 / 7
+  compilation_all               383 / 7
+  statute_sutl                   38 / 7
+  statute_sec                    13 / 7
+  annotation_suta               469 / 7
+  annotation_tuta                 3 / 3
+  annotation_ulsuta               6 / 6
+  annotation_vol4                 5 / 5
+  annotation_boe_property        89 / 7
+  letter_ruling                 499 / 7
+  court_decisions                23 / 6
+  cdtfa_formspubs               179 / 6
+  ftb_legal_ruling               13 / 6
+  ftb_notice                     11 / 6
+  ftb_forms                     445 / 6
+  no_match                     2803 / 7
+LLM pass with gpt-5-mini (cache: 0 entries)
+  processed 1/100  processed 2/100  processed 3/100  processed 4/100  processed 5/100  processed 6/100  processed 7/100  processed 8/100  processed 9/100  processed 10/100  processed 11/100  processed 12/100  processed 13/100  processed 14/100  processed 15/100  processed 16/100  processed 17/100  processed 18/100  processed 19/100  processed 20/100  processed 21/100  processed 22/100  processed 23/100  processed 24/100  processed 25/100  processed 26/100  processed 27/100  processed 28/100  processed 29/100  processed 30/100  processed 31/100  processed 32/100  processed 33/100  processed 34/100  processed 35/100  processed 36/100  processed 37/100  processed 38/100  processed 39/100  processed 40/100  processed 41/100  processed 42/100  processed 43/100  processed 44/100  processed 45/100  processed 46/100  processed 47/100  processed 48/100  processed 49/100  processed 50/100  processed 51/100  processed 52/100  processed 53/100  processed 54/100  processed 55/100  processed 56/100  processed 57/100  processed 58/100  processed 59/100  processed 60/100  processed 61/100  processed 62/100  processed 63/100  processed 64/100  processed 65/100  processed 66/100  processed 67/100  processed 68/100  processed 69/100  processed 70/100  processed 71/100  processed 72/100  processed 73/100  processed 74/100  processed 75/100  processed 76/100  processed 77/100  processed 78/100  processed 79/100  processed 80/100  processed 81/100  processed 82/100  processed 83/100  processed 84/100  processed 85/100  processed 86/100  processed 87/100  processed 88/100  processed 89/100  processed 90/100  processed 91/100  processed 92/100  processed 93/100  processed 94/100  processed 95/100  processed 96/100  processed 97/100  processed 98/100  processed 99/100  processed 100/100
+# Control / references PoC summary
+
+- Chunks scanned: 5001
+- Chunks sampled: 100
+- LLM pass: on
+
+## Chunks per rule
+
+| rule | scanned | sampled |
+|---|---:|---:|
+| index_page | 22 | 7 |
+| compilation_all | 383 | 7 |
+| statute_sutl | 38 | 7 |
+| statute_sec | 13 | 7 |
+| annotation_suta | 469 | 7 |
+| annotation_tuta | 3 | 3 |
+| annotation_ulsuta | 6 | 6 |
+| annotation_vol4 | 5 | 5 |
+| annotation_boe_property | 89 | 7 |
+| letter_ruling | 499 | 7 |
+| court_decisions | 23 | 6 |
+| cdtfa_formspubs | 179 | 6 |
+| cdtfa_notices | 0 | 0 |
+| ftb_legal_ruling | 13 | 6 |
+| ftb_notice | 11 | 6 |
+| ftb_forms | 445 | 6 |
+| no_match | 2803 | 7 |
+
+## `control`
+
+- Set on 50 of 100 sampled chunks (50.0%)
+
+| control_reason | sampled chunks |
+|---|---:|
+| ok | 50 |
+| rule_has_no_control | 19 |
+| compilation_page | 13 |
+| url_number_not_in_text | 11 |
+| no_rule_matched | 7 |
+
+## doc_type changes
+
+- 58 sampled chunks where `after_doc_type` differs from stored `document_type`
+  - REVENUE_RULING -> ANNOTATION: 12
+  - PUBLICATION -> ANNOTATION: 10
+  - PUBLICATION -> COURT_DECISION: 6
+  - ADVISORY_OPINION_POLICY -> ANNOTATION: 5
+  - STATUTE_REFERENCE -> COMPILED: 4
+  - FORM -> PUBLICATION: 4
+  - PUBLICATION -> OTHER: 3
+  - EMERGENCY_INTERIM_GUIDANCE -> OTHER: 3
+  - STATUTE_REFERENCE -> ANNOTATION: 2
+  - FORM_INSTRUCTIONS -> PUBLICATION: 2
+  - REVENUE_RULING -> OTHER: 1
+  - PUBLICATION -> COMPILED: 1
+  - REGULATION -> ANNOTATION: 1
+  - REVENUE_RULING -> LETTER_RULING: 1
+  - BULLETIN_NOTICE -> PUBLICATION: 1
+  - FAQ -> PUBLICATION: 1
+  - RATE_TABLE -> PUBLICATION: 1
+- Examples: 0115080154adbef8#0, 01988e443746d7c9#0, 032676283206ccba#0, 0411922f3edef135#0, 042604a37e1bb882#0, 060f0c118f2fe43d#0, 0629c58e18196933#0, 005abdac77f88ddc#0, 00939c4328c65d68#0, 011370a286bd8ea6#0
+
+## References (unique keys per chunk, summed over the sample)
+
+- Total: 271
+- By rules: 102
+- By LLM: 256
+- Found by both: 87
+- Only rules: 15
+- Only LLM: 169
+- LLM items dropped by validation: 68
+- LLM calls that failed: 0
+- Chunks with at least one reference: 72 of 100
+
+## Reference resolution (against the scanned set)
+
+- Resolved: 13 of 271 (4.8%)
+
+Top 20 unresolved keys:
+
+| key | count |
+|---|---:|
+| CA-REG-1621 | 3 |
+| CA-REG-1620 | 3 |
+| CA-RTC-19269 | 2 |
+| CA-RTC-7251 | 2 |
+| CA-SUTA-325.0000 | 2 |
+| CA-REG-1502 | 2 |
+| CA-REG-1501 | 2 |
+| CA-REG-1803 | 2 |
+| CA-SUTA-700.0000 | 2 |
+| CA-REG-1805 | 2 |
+| CA-SUTA-715.0000 | 2 |
+| CA-REG-1591 | 2 |
+| CA-RTC-6385 | 2 |
+| CA-REG-1507 | 2 |
+| CA-PTA-755.0000 | 1 |
+| CA-PTA-755.0001 | 1 |
+| CA-PTA-755.0002 | 1 |
+| CA-PTA-755.0003 | 1 |
+| CA-PTA-755.0005 | 1 |
+| CA-PTA-755.0010 | 1 |
+
+## Chunks from INFERRED rules (review by hand)
+
+01d12aaeaed9c8bd#0, 02355c9b37698fb4#0, 0638fc30ec7fbb90#0, 08d5d8a97e013e6f#0, 0cee60985fc33791#0, 10bdc5256c75f8ea#0, 03bc5655d918f3aa#0, 05045f0a686bfd71#0, 0941e54267ea4109#0, 0b5cd84a7e451226#0, 0daf982e997fdd7d#0, 0f2bd75c3c5c2703#0, 000644a89fee05cf#0, 0015872d7d59b179#0, 001a2b42c3ee8384#0, 0050a9b577c58283#0, 005e54542de16585#0, 008f5336adbabf97#0
+
+## Profile check against the scanned data
+
+- URL rules that matched nothing in the scan: cdtfa_notices
+- Statute folders without a program_codes entry: none
+- `url_number_not_in_text` in the scan, by rule: {'letter_ruling': 57, 'ftb_legal_ruling': 1, 'ftb_notice': 8, 'annotation_vol4': 5}
+- `url_number_not_in_text` examples: https://cdtfa.ca.gov/lawguides/annotations/110-0606.pdf (title 'STATE OF CALIFORNIA STATE BOARD OF EQUAL'), https://cdtfa.ca.gov/lawguides/annotations/330-3600.pdf (title '330 . 3600'), https://cdtfa.ca.gov/lawguides/annotations/515-0755.pdf (title 'STATE OF CALIFORNIA STATE BOARD OF EQUAL'), https://cdtfa.ca.gov/lawguides/annotations/515-0755.pdf (title 'STATE OF CALIFORNIA STATE BOARD OF EQUAL'), https://cdtfa.ca.gov/lawguides/annotations/510-0077.pdf (title 'STATE OF CALIFORNIA STATE BOARD OF EQUAL')
+- tax_family values in the scan (chunks with each value; ✓ = matches a profile key):
+  - 'sales and use tax': 2008 ✓
+  - 'property taxes': 1248 ✓
+  - 'income taxes': 806 
+  - 'alcohol/tobacco/cannabis taxes': 546 
+  - 'environmental taxes and fees': 490 
+  - 'fuel taxes': 332 
+  - 'business entity and franchise taxes': 314 
+  - 'utility and telecommunications taxes': 230 
+  - 'natural resource severance taxes': 159 
+  - 'other special taxes and fees': 143 
+  - 'insurance and financial taxes': 131 
+  - 'payroll and withholding taxes': 108 
+  - 'unclassified': 93 
+  - 'motor vehicle and transportation taxes': 25 
+  - 'gross receipts taxes': 13 
+  - 'property transfer taxes': 13 
+  - 'gaming and entertainment taxes': 2 
+  - 'estate and inheritance taxes': 1 
+- Most common URL prefixes with no matching rule:
+  - boe.ca.gov/proptaxes/pdf: 710
+  - boe.ca.gov/meetings/pdf: 275
+  - cdtfa.ca.gov/lawguides/vol4: 214
+  - cdtfa.ca.gov/legal/litigation-roster: 199
+  - cdtfa.ca.gov/lawguides/vol3: 162
+  - ftb.ca.gov/tax-pros/law: 145
+  - boe.ca.gov/legdiv/pdf: 64
+  - cdtfa.ca.gov/lawguides/annotations: 57
+  - ftb.ca.gov/help/letters: 54
+  - cdtfa.ca.gov/lawguides/vol1: 53
+  - ftb.ca.gov/about-ftb/newsroom: 50
+  - cdtfa.ca.gov/lawguides/vol2: 48
+  - ftb.ca.gov/tax-pros/procedures: 34
+  - ftb.ca.gov/about-ftb/meetings: 32
+  - ftb.ca.gov/about-ftb/data-reports-plans: 31
+- doc_type changes in the scan, by rule:
+  - annotation_suta: REVENUE_RULING -> ANNOTATION: 302
+  - compilation_all: STATUTE_REFERENCE -> COMPILED: 156
+  - ftb_forms: FORM_INSTRUCTIONS -> PUBLICATION: 147
+  - compilation_all: REGULATION -> COMPILED: 118
+  - annotation_suta: ADVISORY_OPINION_POLICY -> ANNOTATION: 92
+  - ftb_forms: FORM -> PUBLICATION: 81
+  - annotation_suta: PUBLICATION -> ANNOTATION: 65
+  - annotation_boe_property: PUBLICATION -> ANNOTATION: 57
+  - compilation_all: OTHER -> COMPILED: 56
+  - letter_ruling: ADVISORY_OPINION_POLICY -> LETTER_RULING: 46
+  - cdtfa_formspubs: BULLETIN_NOTICE -> PUBLICATION: 34
+  - compilation_all: PUBLICATION -> COMPILED: 28
+  - cdtfa_formspubs: FORM -> PUBLICATION: 23
+  - court_decisions: PUBLICATION -> COURT_DECISION: 22
+  - annotation_boe_property: ADVISORY_OPINION_POLICY -> ANNOTATION: 20
+  - letter_ruling: REVENUE_RULING -> LETTER_RULING: 16
+  - ftb_forms: FAQ -> PUBLICATION: 13
+  - compilation_all: PUBLICATION -> ANNOTATION: 12
+  - compilation_all: ADVISORY_OPINION_POLICY -> ANNOTATION: 10
+  - ftb_forms: RATE_TABLE -> PUBLICATION: 9
+
+Wrote /home/user/citation-poc/poc_control_refs/output/control_refs_poc.csv and /home/user/citation-poc/poc_control_refs/output/summary.md
